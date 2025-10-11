@@ -1,37 +1,52 @@
 {
-	"name": "joyboy-vscode-theme",
-	"displayName": "JoyBoy",
-	"description": "A sleek and modern dark theme for Visual Studio Code, designed for developers who prefer a comfortable and eye-friendly coding experience. Perfect for long coding sessions with its carefully chosen color palette.",
-	"version": "1.0.0",
-	"publisher": "Aditya Prasad",
-	"engines": {
-		"vscode": "^1.96.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"keywords": [
-		"dark theme",
-		"vscode theme",
-		"developer theme",
-		"eye-friendly theme",
-		"coding theme",
-		"JoyBoy",
-		"VS Code dark theme"
-	],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/AdityaP183/joyboy.git",
-		"directory": "."
-	},
-	"contributes": {
-		"themes": [
-			{
-				"label": "JoyBoy Dark Theme",
-				"uiTheme": "vs-dark",
-				"path": "./themes/JoyBoy-color-theme.json"
-			}
-		]
-	},
-	"license": "MIT"
+    "name": "joyboy-vscode-theme",
+    "displayName": "JoyBoy",
+    "description": "A sleek and modern dark theme for VS Code with multiple flavors: Crimson Sail, Jade Compass, and Amethyst Drift. Carefully designed for long coding sessions.",
+    "version": "2.0.0",
+    "publisher": "Aditya Prasad",
+    "engines": {
+        "vscode": "^1.96.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "dark theme",
+        "vscode theme",
+        "developer theme",
+        "JoyBoy",
+        "Crimson Sail",
+        "Jade Compass",
+        "Amethyst Drift"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AdityaP183/joyboy.git",
+        "directory": "."
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "JoyBoy Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/joyboy-dark-color-theme.json"
+            },
+            {
+                "label": "JoyBoy Crimson Sail",
+                "uiTheme": "vs-dark",
+                "path": "./themes/joyboy-crimson-sail-color-theme.json"
+            },
+            {
+                "label": "JoyBoy Jade Compass",
+                "uiTheme": "vs-dark",
+                "path": "./themes/joyboy-jade-compass-color-theme.json"
+            },
+            {
+                "label": "JoyBoy Amethyst Drift",
+                "uiTheme": "vs-dark",
+                "path": "./themes/joyboy-amethyst-drift-color-theme.json"
+            }
+        ]
+    },
+    "license": "MIT"
 }
