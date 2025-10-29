@@ -1,0 +1,18 @@
+{
+    "file": "file",
+    "folder": "folder",
+    "iconDefinitions": {
+        "python": {
+            "iconPath": "files/python.svg"
+        },
+        "c": {
+            "iconPath": "files/python1.svg"
+        },
+    },
+    "fileExtensions": {
+        "py": "python",
+        "c": "c"
+    },
+    "fileNames": {},
+    "folderNames": {}
+}

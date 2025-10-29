@@ -7,6 +7,11 @@
     "engines": {
         "vscode": "^1.96.0"
     },
+    "author": {
+        "name": "Aditya Prasad",
+        "email": "adityaprasad1828@gmail.com",
+        "url": "https://github.com/AdityaP183"
+    },
     "categories": [
         "Themes"
     ],
@@ -24,7 +29,18 @@
         "url": "https://github.com/AdityaP183/joyboy.git",
         "directory": "."
     },
+    "bugs": {
+        "url": " https://github.com/AdityaP183/joyboy/issues"
+    },
+    "homepage": "https://github.com/AdityaP183/joyboy",
     "contributes": {
+        "iconThemes": [
+            {
+                "id": "joyboy-icon-theme",
+                "label": "JoyBoy-Icon-Theme",
+                "path": "./icons/joyboy-icon-theme.json"
+            }
+        ],
         "themes": [
             {
                 "label": "JoyBoy Dark",
