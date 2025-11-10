@@ -14,6 +14,9 @@
         "cpp": {
             "iconPath": "files/cpp.svg"
         },
+        "java": {
+            "iconPath": "files/java.svg"
+        },
         "javascript": {
             "iconPath": "files/javascript.svg"
         },
@@ -38,6 +41,18 @@
         "text": {
             "iconPath": "files/text.svg"
         },
+        "react": {
+            "iconPath": "files/react.svg"
+        },
+        "react-typescript": {
+            "iconPath": "files/react-ts.svg"
+        },
+        "markdown": {
+            "iconPath": "files/markdown.svg"
+        },
+        "svg": {
+            "iconPath": "files/svg.svg"
+        },
     },
     "fileExtensions": {
         "py": "python",
@@ -56,6 +71,8 @@
         "pdf": "text",
         "doc": "text",
         "docx": "text",
+        "md": "markdown",
+        "mdx": "markdown",
         "gitignore": "git",
         "gitattributes": "git",
         "gitmodules": "git",
@@ -80,6 +97,10 @@
         "commitlintrc.cjs": "config",
         "commitlintrc.mjs": "config",
         "prettier.config.js": "config",
+        "jsx": "react",
+        "tsx": "react-typescript",
+        "java": "java",
+        "svg": "svg",
     },
     "fileNames": {
         ".dockerignore": "docker",
@@ -130,6 +151,7 @@
         "docker-compose.ci.yaml": "docker",
         "docker-compose.web.yaml": "docker",
         "docker-compose.worker.yaml": "docker",
+        "README": "markdown",
         ".env": "config",
         ".env.example": "config",
         ".env.local": "config",
