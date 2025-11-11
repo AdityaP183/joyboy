@@ -53,12 +53,25 @@
         "svg": {
             "iconPath": "files/svg.svg"
         },
+        "folder": {
+            "iconPath": "folders/folder.svg"
+        },
+        "folder-config": {
+            "iconPath": "folders/config.svg"
+        },
+        "folder-git": {
+            "iconPath": "folders/git.svg"
+        },
     },
     "fileExtensions": {
         "py": "python",
         "c": "c",
         "js": "javascript",
+        "mjs": "javascript",
+        "cjs": "javascript",
         "ts": "typescript",
+        "mts": "typescript",
+        "cts": "typescript",
         "html": "html",
         "css": "css",
         "go": "golang",
@@ -162,5 +175,17 @@
         ".env.build": "config",
         ".env.test": "config",
     },
-    "folderNames": {}
+    "folderNames": {
+        "config": "folder-config",
+        "configs": "folder-config",
+        "configuration": "folder-config",
+        "configurations": "folder-config",
+        "constant": "folder-config",
+        "constants": "folder-config",
+        "enum": "folder-config",
+        "enums": "folder-config",
+        ".vscode": "folder-config",
+        ".github": "folder-config",
+        ".git": "folder-git",
+    }
 }
